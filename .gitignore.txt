@@ -1,0 +1,56 @@
+.env
+# Node modules
+node_modules/
+
+# Build output
+build/
+dist/
+
+# Logs
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript output
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Next.js build output (if applicable)
+.next/
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# IDEs
+.idea/
+
+# Coverage directory used by testing tools
+coverage/
+
+# Yarn integrity file
+.yarn-integrity
+
+# NPM package lock
+package-lock.json
+
+# Jest config
+jest/
+
+# Tyepscript cache
+.tsbuildinfo
+
+# Other build directories (if applicable)
+public/static/

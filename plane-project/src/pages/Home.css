@@ -1,0 +1,17 @@
+/* Make sure the page fills the screen */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.horizontal-center {
+  display: flex;
+  justify-content: center;  /* center horizontally */
+  align-items: center;      /* center vertically */
+  height: 100vh;            /* full screen height */
+  width: 100%;
+  gap: 20px;                /* space between items */
+}
+
+ 
